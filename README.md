@@ -1,7 +1,50 @@
 # almabetter-HotelEDA
-The aim of this project was to perform exploratory data analysis (EDA) on a hotel booking dataset in order to gain insights into customer behavior and booking patterns. This project relates to hotel reservations and includes a variety of city hotels and resort hotels. There are 32 columns and a total of 119390 rows in this dataset. The dataset contained information on hotel bookings, including booking dates, customer demographics, and reservation details. First, we cleaned and preprocessed the data, which involved removing missing values, handling duplicates. Then we visualized the data using various graphical techniques such as histograms, scatter plots, and heat maps. Through our analysis, we discovered several interesting insights. For example, we found that most bookings were made between july and August. 
+Project Overview: Exploratory Data Analysis on Hotel Booking Dataset
+Objective:
 
+Perform exploratory data analysis (EDA) on a hotel booking dataset to gain insights into customer behavior and booking patterns.
+Dataset Details:
 
-Data collection, data cleaning and manipulation, and EDA (experimental Data Analysis) are the three categories into which the workflow for data manipulation is divided. The names of some of the columns including hotel, is_canceled, lead_time, arrival_date_year, arrival_date_month, arrival_date_week_number, arrival_date_day_of_month, and stays_in_weekend_nights, have been updated as the data collection process has progressed. As we proceed, I first perform data manipulation before visualizing any data from the data source. 
+Type: Hotel reservations
+Includes: Data from city hotels and resort hotels
+Size: 32 columns and 119,390 rows
+Information Contained:
+Booking dates
+Customer demographics
+Reservation details
+Data Cleaning and Preprocessing
+Steps Taken:
 
-We Identify the distinct value for each column, create a list in tabular format, and also verify the dataset type for each column. Identify some columns with inaccurate data types and fix them afterward. As we examined each column's has null values. After checking, drop the column using the 'drop' method if we find one that has a greater percentage of null values. We are so removed from the "company" column. When there are only a few null values, we fill those null values with the necessary values, and discover duplicate items totaling 31994, which are later discarded from the dataset, duplicate data items must also be removed during the data cleaning phase. To achieve greater understanding and business goals, many charts are utilized for data visualization.
+Removing Missing Values:
+Examined each column for null values.
+Dropped columns with a high percentage of missing values (e.g., "company" column).
+Handling Duplicates:
+Identified and removed 31,994 duplicate entries to ensure data integrity.
+Data Type Verification:
+Checked and corrected inaccurate data types for various columns.
+Exploratory Data Analysis (EDA)
+Process:
+
+Identifying Distinct Values:
+Created a list of distinct values for each column in a tabular format to enhance understanding of the data.
+Data Visualization:
+Employed various graphical techniques, including:
+Histograms
+Scatter plots
+Heat maps
+Discovered key insights, such as:
+Most bookings were made between July and August.
+Conclusion
+Workflow Categories:
+
+The data manipulation process can be divided into three main stages:
+Data Collection
+Data Cleaning and Manipulation
+Exploratory Data Analysis (EDA)
+Key Insights:
+
+Booking Trends: A significant number of bookings occur during the peak months of July and August.
+Data Integrity: The cleaning process ensured the dataset was free from duplicates and inaccuracies, allowing for more reliable analysis.
+Goal:
+
+Utilize various charts for data visualization to achieve a deeper understanding of customer behavior and booking patterns, ultimately aligning findings with business strategies in the hospitality industry.
